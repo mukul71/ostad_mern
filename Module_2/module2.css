@@ -11,6 +11,7 @@
 /* Line height */
 p{
     line-height: 20px;
+    margin: 40px;
 }
 
 /* CSS Margin */
@@ -30,4 +31,32 @@ p{
     color: white;
     padding: 12px;
     margin: 10px;
+}
+/* CSS justify-content */
+#flexstart{
+    display: flex;
+    justify-content: start;
+}
+#flexend{
+    display: flex;
+    justify-content: end;
+}
+#felxcent{
+    display: flex;
+    justify-content: center;
+}
+/* CSS Filter */
+img{
+    width: 500px;
+    height: auto;
+    /* filter: brightness(130%); */
+    /* filter: blur(2px); */
+    /* filter: invert(60); */
+    /* filter: saturate(40); */
+    /* filter: drop-shadow(10px 15px 18px rgb(137, 176, 64)); */
+    /* filter: contrast(50%); */
+    /* filter: opacity(40%); */
+    /* filter: grayscale(80%); */
+    /* filter: sepia(90%); */
+    filter: hue-rotate(240deg);
 }
