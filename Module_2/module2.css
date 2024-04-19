@@ -8,3 +8,26 @@
 .my-button:hover{
     background-color: green;
 }
+/* Line height */
+p{
+    line-height: 20px;
+}
+
+/* CSS Margin */
+
+.my-box{
+    height: 50px;
+    width: 70px;
+    background-color: coral;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+}
+.my-box2{
+    height: 50px;
+    width: 70px;
+    background-color: green;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+}
