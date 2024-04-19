@@ -1,0 +1,10 @@
+/* Hover properties */
+.my-button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.my-button:hover{
+    background-color: green;
+}
