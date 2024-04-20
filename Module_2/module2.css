@@ -60,3 +60,8 @@ img{
     /* filter: sepia(90%); */
     filter: hue-rotate(240deg);
 }
+
+/* using variable  */
+:root{
+    --bg-color: rgb(224, 26, 158);
+}
